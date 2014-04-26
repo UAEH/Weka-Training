@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     pagina_block
+Instances:    5473
+Attributes:   11
+              height
+              lenght
+              area
+              excentricidad
+              porcen_pixeles_negro
+              porcen_and
+              num_transicion
+              pixel_negro
+              negro_and
+              negro_blanco_transicion
+              clases
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5257               96.0534 %
+Incorrectly Classified Instances       216                3.9466 %
+Kappa statistic                          0.7719
+Mean absolute error                      0.0197
+Root mean squared error                  0.115 
+Relative absolute error                 25.8888 %
+Root relative squared error             59.0308 %
+Total Number of Instances             5473     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.99      0.28       0.969     0.99      0.979      0.927    1
+                 0.781     0.004      0.918     0.781     0.844      0.94     2
+                 0.607     0.001      0.85      0.607     0.708      0.943    3
+                 0.739     0.002      0.878     0.739     0.802      0.912    4
+                 0.478     0.004      0.696     0.478     0.567      0.853    5
+Weighted Avg.    0.961     0.252      0.958     0.961     0.958      0.926
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 4863   20    3    7   20 |    a = 1
+   68  257    0    2    2 |    b = 2
+   10    0   17    0    1 |    c = 3
+   21    1    0   65    1 |    d = 4
+   58    2    0    0   55 |    e = 5
+
+=== log ===
+
+15:28:34: Started on viernes, 25 abril 2014
+15:32:06: Started weka.classifiers.lazy.IBk
+15:32:06: Command:weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+15:32:18: Finished weka.classifiers.lazy.IBk

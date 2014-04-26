@@ -1,0 +1,40 @@
+Algoritmo es ka vecimos proximos
+knn
+
+ivk
+
+
+Lllamar basea a 100%:
+
+tenerlo en arff
+
+
+Puedo tener categóricos o numéricos
+
+Weka -> Explorer -> Classiffy -> choose ->Lazy -> IBK
+
+
+clic izquierdo en donde dice IBK en ngritas de la do choose
+
+
+En donde dice knn Asignar número de vecinois
+
+
+
+(para uno, tres y cinco)
+1 ->ok ->Start y clic en log (started, Coomad, fineshed)
+
+
+Atinasdos, incorrectosd matriz y el log
+
+
+
+
+Columnasa son las clases
+
+
+
+10 bd 
+8 mas de   1,000
+2 mas de 100,000
+Los comentarios son con porcentajes
